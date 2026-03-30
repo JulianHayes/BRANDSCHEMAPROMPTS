@@ -46,3 +46,11 @@ March 2026
 
 ## Prompt Dependencies
 
+Red Team (run first) → Phase A (1 → 2a → 2b → 3a → 3b) → Phase B (4a → 4b → 4c) → Phase C (5 → 6 → Checkpoint → 7a → 7b → 8) → Phase D (9a → 9b → Kill Criteria → 10 → 11) → Next Phase (12 → 13 → 14 → 15)
+
+## Conversation Notes
+
+- Prompts within the same phase sometimes share a conversation (check **Conversation** setting)
+- When a prompt says "Same conversation as [X]", do not start a new chat
+- When a prompt says "New conversation", start fresh within the Brand Schema project
+
